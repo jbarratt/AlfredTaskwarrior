@@ -5,7 +5,7 @@ command, passing all the arguments through.
 
 # Installation
 
-Download, then double click the `Taskwarrior.alfredextension` file
+[Download](https://github.com/jbarratt/AlfredTaskwarrior/blob/master/Taskwarrior.alfredextension?raw=true), then double click the `Taskwarrior.alfredextension` file
 
 # Usage
 
@@ -21,3 +21,12 @@ can actually work reasonably well blind to do other things:
         $ task add remember the milk due:tomorrow pri:H +grocery
         $ task milk start
         $ task milk stop
+
+One nice thing is that Alfred also has a command which opens a terminal (by
+default mapped to `>`) so entering bigger commands can be done just by prefixing
+it with that.
+
+        > task summary
+
+will open a terminal with that command (for example) run, and from there you can do other
+interactive task things.
