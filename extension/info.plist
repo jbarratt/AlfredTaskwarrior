@@ -11,7 +11,7 @@
 #Use:	task &lt;query&gt;
 #Ex:	task add remember the milk due:tomorrow pri:H +grocery
 
-RESULT=$(/usr/local/bin/task {query});
+RESULT=$(/usr/local/bin/task {query} | perl -pe 's/\e\[?.*?[\@-~]//g');
 echo $RESULT;</string>
 	<key>escapequery</key>
 	<false/>
