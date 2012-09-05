@@ -5,7 +5,10 @@ command, passing all the arguments through.
 
 # Installation
 
-[Download](https://github.com/jbarratt/AlfredTaskwarrior/blob/master/Taskwarrior.alfredextension?raw=true), then double click the `Taskwarrior.alfredextension` file
+[Download](https://github.com/jbarratt/AlfredTaskwarrior/blob/master/Taskwarrior.alfredextension?raw=true), then double click the `Taskwarrior.alfredextension` file.
+
+It's compatible with the [Extensions Updater](http://jdfwarrior.tumblr.com/updater) extension, so no need to check
+back for updates.
 
 # Usage
 
