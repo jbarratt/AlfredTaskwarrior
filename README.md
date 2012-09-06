@@ -1,7 +1,8 @@
 # Alfred Taskwarrior Integration
 
-This is stupid simple. It just maps `task`... to calling the taskwarrior
-command, passing all the arguments through.
+This is stupid simple. It just maps `task`... to calling the taskwarrior command, passing all the arguments through.
+
+See more about how it all works in the [blog post I wrote about this](http://serialized.net/2012/09/a-simple-taskwarrior-alfred-plugin/).
 
 # Installation
 
